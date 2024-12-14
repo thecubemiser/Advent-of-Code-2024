@@ -4,3 +4,5 @@
 
 [node name="Day5" type="Node2D"]
 script = ExtResource("1_a2bly")
+input_file_path = "res://Day 5/Input/input_day5.txt"
+page_rule_regex = "[0-9]{2}[\\|]+[0-9]{2}"
