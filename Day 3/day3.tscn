@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://b2e1sqrxjfrpt"]
+
+[ext_resource type="Script" path="res://Day 3/day3.gd" id="1_21qag"]
+
+[node name="Day3" type="Node2D"]
+script = ExtResource("1_21qag")
+input_file_path = "res://Day 3/Input/input_day3.txt"
+search_string = "(mul[(][0-9]{1,3}[,][0-9]{1,3}[)])|(do(n\\'t)*?[(][)])"

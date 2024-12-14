@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://cwr2qo1bk6e45"]
+
+[ext_resource type="Script" path="res://Day 4/day4.gd" id="1_qr80s"]
+
+[node name="Day4" type="Node2D"]
+script = ExtResource("1_qr80s")
+input_file_path = "res://Day 4/Input/input_day4.txt"
+search_string_part_one = "XMAS"
+search_string_part_two = "MAS"
